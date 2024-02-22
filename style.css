@@ -1,0 +1,102 @@
+.imagemSENAI{
+    display: flex;
+    height: 100px;
+    
+   
+}
+.barraMenu{
+    display: flex;
+    background-color: bisque;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 40px;
+    color: blue;
+}
+
+
+.menu{
+    display: flex;
+    
+}
+
+.menu li{
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.menu li a{
+    padding: 10px;
+    border: 2px solid black;
+    display: block;
+}
+
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+
+
+.divs{
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+}
+
+.div1 .div2 .div3{
+    display: flex;
+    
+    
+    border: 1px solid black;
+}
+
+.divisao{
+    background-color: black;
+    height: 10px;
+    margin: 0px;
+}
+
+.imagens{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.imagemDestaque{
+    border: 1px solid blueviolet;
+    box-shadow: crimson 2px 2px 3px;
+}
+
+.imgDestaque{
+    width: 50%;
+    margin-left: 20%;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin-bottom: 5px;
+}
+
+.footer-section.image img {
+    max-width: 100px;
+}
